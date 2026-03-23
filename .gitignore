@@ -10,7 +10,8 @@ autom4te.cache/
 *.tar.gz
 tarballs/
 test-results/
-CommBank-Server/Secrets.json
+# Ignore Secrets.json everywhere
+**/Secrets.json
 # Mac bundle stuff
 *.dmg
 *.app
